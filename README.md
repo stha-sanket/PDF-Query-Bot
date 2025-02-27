@@ -89,14 +89,6 @@ The chatbot functionality is powered by Google's Gemini Pro AI model.  The appli
     *   Summarization features for large PDFs.
     *   More advanced prompt engineering for better chatbot responses.
 
-## 📄 License
-
-[Optional: Add license information here, e.g., MIT License, Apache 2.0, etc.]
-
-## 🤝 Contact
-
-[Optional: Add your contact information or repository link here if you want to be contacted or contribute.]
-
 ---
 
-**Made with ❤️ using Streamlit, Python, and Google Gemini AI.**
+**Made with using Streamlit, Python, and Google Gemini AI.**
