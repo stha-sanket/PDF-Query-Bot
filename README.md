@@ -40,15 +40,14 @@ Follow these steps to run the Nepali PDF Chatbot application:
 1.  **Clone the repository:** (If you are creating a repository for this code)
 
     ```bash
-    git clone [repository-url]
-    cd [repository-directory]
+    git clone [https://github.com/stha-sanket/PDF-Query-Bot.git]
     ```
 
 2.  **Set up API Key:**
     *   **Recommended (Streamlit Secrets):**  Create a `.streamlit/secrets.toml` file in your project directory (or within your Streamlit app's directory if deploying). Add your API key like this:
 
         ```toml
-        GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+        GEMINI_API_KEY = "YOUR_API_KEY_HERE" # enter your api key in this field donot copy mine
         ```
         Then, in your Python code, access it using: `os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]`
 
@@ -57,7 +56,7 @@ Follow these steps to run the Nepali PDF Chatbot application:
 3.  **Run the Streamlit app:**
 
     ```bash
-    streamlit run your_script_name.py  # Replace your_script_name.py with the name of your Python file
+    streamlit run pdfbot.py  # Replace your_script_name.py with the name of your Python file
     ```
 
 4.  **Access the App:** Open your web browser and go to the URL displayed in the terminal (usually `http://localhost:8501`).
